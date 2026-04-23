@@ -47,17 +47,6 @@
         ]
       },
       {
-        "tab": "Get Support",
-        "icon": "lucide-life-buoy",
-        "pages": [
-          {
-            "title": "Help Center",
-            "path": "help-center",
-            "icon": "home"
-          }
-        ]
-      },
-      {
         "tab": "Changelog",
         "icon": "clock",
         "pages": [
@@ -65,6 +54,17 @@
             "title": "Changelog",
             "path": "changelog",
             "icon": "history"
+          }
+        ]
+      },
+      {
+        "tab": "Get Support",
+        "icon": "lucide-life-buoy",
+        "pages": [
+          {
+            "title": "Help Center",
+            "path": "help-center",
+            "icon": "home"
           }
         ]
       }

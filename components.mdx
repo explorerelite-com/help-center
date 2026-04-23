@@ -1,92 +1,56 @@
 ---
-title: Components (Sample)
-description: A small showcase of the built-in MDX components with usage guidelines.
+title: Page Building Blocks
+description: A quick, non-technical tour of the Explorer Elite documentation layout style.
 ---
 
-## Quick component tour
+# Clear blocks, easy reading
+
+Explorer Elite pages use a few simple building blocks so readers can scan, compare, and move forward without confusion.
 
 <Callout kind="info">
-These are example components from Documentation.AI. Use them to make pages easier to scan.
+Use these blocks to help Explorers and Partners find the right next step quickly.
 </Callout>
 
-<Columns cols={3}>
-  <Card title="Callout" icon="info" href="/components/callouts">
-    Use for tips, warnings, and important notes.
+## The main blocks
+
+<Cards>
+  <Card title="Highlights" icon="sparkles" href="/components/cards" horizontal>
+    Use cards for quick choices, featured journeys, and next-step links.
   </Card>
-  <Card title="Steps" icon="check-circle" href="/components/steps">
-    Break tasks into easy, numbered actions.
+  <Card title="Guided checklists" icon="list-checks" href="/components/steps" horizontal>
+    Use steps when people should move through a journey in order.
   </Card>
-  <Card title="Tabs" icon="layers" href="/components/tabs">
-    Keep alternate examples tidy.
+  <Card title="Helpful alerts" icon="message-square" href="/components/callouts" horizontal>
+    Use callouts for reminders, tips, and important notes.
   </Card>
-</Columns>
+  <Card title="Side-by-side paths" icon="columns-2" href="/components/tabs" horizontal>
+    Use tabs when Explorers and Partners need separate views.
+  </Card>
+</Cards>
 
-### Callout: usage tips
-
-**When to use**
-
-- Highlight important warnings or constraints that affect success
-- Call out tips that save time or prevent common mistakes
-- Emphasize prerequisites, permissions, or irreversible actions
-
-**When not to use**
-
-- For every minor detail; overuse makes real warnings easy to ignore
-- As a replacement for clear prose and headings
-- To hide critical blocking information at the bottom of a long page
-
-## Steps (sample)
-
-<Steps>
-  <Step title="Add a heading" icon="type">
-    Start each page with a clear, short title.
-  </Step>
-  <Step title="Explain the goal" icon="target">
-    Tell readers what they will achieve.
-  </Step>
-  <Step title="Link to next steps" icon="arrow-right">
-    Point to the next page they should read.
-  </Step>
-</Steps>
-
-### Steps: usage tips
-
-**When to use**
-
-- Readers must follow actions in a specific order
-- You describe tasks that can be completed in one sitting
-- You want to separate conceptual explanation from hands-on actions
-
-**When not to use**
-
-- For unordered checklists where sequence does not matter
-- To document background concepts or architecture
-- For long, branching workflows that need their own dedicated guide
-
-## Tabs (sample)
+## When to use what
 
 <Tabs>
-  <Tab title="CLI" icon="terminal">
-    ```bash
-    docs init my-project
-    docs dev
-    ```
+  <Tab title="Explorers">
+    Explorers often move from introduction to quick answers, then into the pages that help them explore opportunities and understand their Passport.
+
+    Use cards when you want to highlight the next thing to read. Use steps when the reader should do something in order.
   </Tab>
-  <Tab title="UI" icon="mouse-pointer">
-    Open the editor, choose a page, and start writing.
+
+  <Tab title="Partners">
+    Partners often want a clear path from overview to setup, then into guides and support.
+
+    Use tabs when the message changes by role. Use callouts when a reminder or expectation matters before someone continues.
   </Tab>
 </Tabs>
 
-### Tabs: usage tips
+## Keep the flow simple
 
-**When to use**
+- Use cards for choices and related pages.
+- Use steps for guided journeys.
+- Use callouts for short reminders.
+- Use tabs when Explorers and Partners need different guidance.
 
-- You show the same idea in multiple languages or platforms
-- You provide alternate setup paths, such as CLI versus UI
-- You want to keep short variants in one compact section
-
-**When not to use**
-
-- When one variant is strongly recommended over the others
-- For long, independent flows that deserve separate pages
-- When content differs so much that readers must read all variants anyway
+<Callout kind="tip">
+Start with Quickstart and the Help Center if you want a quick tour of the site.
+</Callout>

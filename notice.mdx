@@ -1,52 +1,46 @@
 ---
-title: Notice
-description: Clear guidance that this site is a starter template.
+title: Notices
+description: Important community and product notes for Explorer Elite readers.
 ---
 
-## This is a sample
+# Why notices exist
 
-<Callout kind="alert" collapsed="false">
-This site ships with placeholder content. Review and replace it with your real documentation before sharing with customers.
+Notices are short reminders that help people understand what matters right now. They keep Explorers and Partners aware of community expectations, shared updates, and anything that affects how the product feels to use.
+
+<Callout kind="info">
+Notices are meant to be clear and friendly, not formal. Think of them as a simple way to stay aligned.
 </Callout>
 
-## What is safe to change
+## Community Guidelines
 
-You can edit any page content, rename sections, and update navigation structure. If you do not need the API Reference or Help Center, you can also remove those tabs from `documentation.json`.
+<Callout kind="alert">
+Be respectful, keep communication helpful, and treat other people’s journeys with care.
+</Callout>
 
-<Columns cols="2">
-  <Card title="Page content" icon="file-text" horizontal="false">
-    Edit any `.mdx` file in this repo.
+## Safety and respect
+
+<Callout kind="alert">
+If something feels unsafe, unclear, or uncomfortable, pause and use the Help Center to find the next step.
+</Callout>
+
+## How updates work
+
+<Cards>
+  <Card title="What changed" icon="sparkles" href="/changelog" horizontal>
+    A short note about the update or improvement.
   </Card>
-
-  <Card title="Navigation" icon="list" horizontal="false">
-    Update labels, order, and visible tabs in `documentation.json`.
+  <Card title="Where to look" icon="help-circle" href="/help-center" horizontal>
+    A quick pointer to the page that explains it best.
   </Card>
-
-  <Card title="API Reference" icon="code" horizontal="false">
-    Swap `openapi.yaml` with your own spec, or remove the API Reference tab from `documentation.json` if you do not need it.
+  <Card title="How it affects Explorers" icon="compass" href="/quickstart" horizontal>
+    A simple note on what Explorers should expect.
   </Card>
-
-  <Card title="Help Center" icon="help-circle" horizontal="false">
-    Replace FAQs, guides, and troubleshooting with your real support content, or remove the Help Center tab from `documentation.json` if it is not part of your docs.
+  <Card title="How it affects Partners" icon="users" href="/help-center/guides/setup-project" horizontal>
+    A simple note on what Partners should expect.
   </Card>
-</Columns>
+</Cards>
 
-## Recommended first changes
+## More to read
 
-<Steps>
-  <Step title="Rename pages" icon="edit" title-type="p">
-    Update page titles and descriptions to match your product.
-  </Step>
-
-  <Step title="Replace sample links" icon="link" title-type="p">
-    Remove any placeholder URLs and add your own.
-  </Step>
-
-  <Step title="Remove unused tabs and sections" icon="settings" title-type="p">
-    Open `documentation.json` and remove entries for tabs or sections you do not plan to use, such as the API Reference or Help Center, without deleting any files.
-  </Step>
-
-  <Step title="Remove unused pages" icon="trash" title-type="p">
-    Delete any `.mdx` pages you do not plan to maintain so the sidebar only shows relevant content.
-  </Step>
-</Steps>
+- [Changelog](/changelog)
+- [Help Center](/help-center)

@@ -152,5 +152,19 @@
   },
   "title": "Help Center",
   "name": "Help Center",
-  "description": "Explore our detailed documentation, FAQs, and expert tips to maximize your platform experience."
+  "description": "Explore our detailed documentation, FAQs, and expert tips to maximize your platform experience.",
+  "navbar": {
+    "actions": {
+      "primary": {
+        "title": "Back to website",
+        "link": "https://explorerelite.com/"
+      },
+      "links": [
+        {
+          "title": "Support",
+          "link": "https://explorerelite.com/support"
+        }
+      ]
+    }
+  }
 }

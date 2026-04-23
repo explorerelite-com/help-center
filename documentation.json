@@ -90,5 +90,6 @@
   "template": "atlas",
   "logo-dark": "https://blob-cdn.documentation.ai/org-8bb86389-7c6a-4417-a597-cc1544621d4d/doc-be4eb54f-55b2-4fec-b4c8-88519d146abf/1776963907822-2yx2yzqy51v-Logo---White.svg?fm=auto&auto=compress%2Cformat",
   "logo-light": "https://blob-cdn.documentation.ai/org-8bb86389-7c6a-4417-a597-cc1544621d4d/doc-be4eb54f-55b2-4fec-b4c8-88519d146abf/1776963930023-ik102nqspjc-Logo---Black.svg?fm=auto&auto=compress%2Cformat",
+  "logo-height": 40,
   "favicon": "https://blob-cdn.documentation.ai/org-8bb86389-7c6a-4417-a597-cc1544621d4d/doc-be4eb54f-55b2-4fec-b4c8-88519d146abf/1776963825704-zejjrd8vnr8-Logo-mark---Black-on-BG.svg?fm=auto&auto=compress%2Cformat"
 }

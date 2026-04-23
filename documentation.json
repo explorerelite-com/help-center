@@ -1,5 +1,4 @@
 {
-  "name": "Starter Kit",
   "colors": {
     "light": {
       "brand": "#F97316"
@@ -150,5 +149,8 @@
         ]
       }
     ]
-  }
+  },
+  "title": "Help Center",
+  "name": "Help Center",
+  "description": "Explore our detailed documentation, FAQs, and expert tips to maximize your platform experience."
 }
